@@ -1,0 +1,16 @@
+.navbar {
+	padding-top: 10px;
+}
+
+.nav-center {
+	margin: 0;
+	float: none;
+}
+
+.navbar-inner {
+	text-align: center;
+}
+
+#logo {
+	padding: 5px;
+}
