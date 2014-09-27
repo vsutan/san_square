@@ -14,3 +14,14 @@
 #logo {
 	padding: 5px;
 }
+
+.img-gallery {
+	background-image: url("image_1.png");
+	background-repeat: no-repeat; 
+	background-position: center center;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover !important;
+  background-attachment: fixed !important;
+  min-height: 1000px;
+}
