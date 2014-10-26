@@ -26,6 +26,17 @@
   min-height: 1000px;
 }
 
+.img-gallery-2 {
+	background-image: url("image_13.png");
+	background-repeat: no-repeat; 
+	background-position: center center;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover !important;
+  background-attachment: fixed !important;
+  min-height: 1000px;
+}
+
 .carousel-caption {
   max-width: 550px;
   padding: 0 20px;
@@ -41,4 +52,50 @@
 .main-page-message {
 	margin-top: 50px;
 	margin-bottom: 50px;
+}
+
+.navbar-default {
+	background-color: #FAF741 !important;
+	border-color: #FAF741 !important;
+	padding-bottom: 10px;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:active,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > li > a:hover {
+	background-color: transparent;
+}
+
+.navbar-default .navbar-nav > li > a {
+	font-size: 2.0em;
+	padding-top: 25px;
+}
+
+.navbar {
+	margin-bottom: 0px;
+}
+
+#navbar-scroll {
+	visibility: hidden;
+}
+
+#myCarousel {
+	padding-top: 40px;
+}
+
+#about:before {
+	display: block;
+	content: " ";
+	margin-top: -100px;
+	height: 100px;
+	visibility: hidden;
+}
+
+#menu:before {
+	display: block;
+	content: " ";
+	margin-top: -100px;
+	height: 100px;
+	visibility: hidden;
 }

@@ -14,3 +14,21 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+var mainbottom = $('#myCarousel').offset().top + $('#myCarousel').height();
+
+// On Scroll
+$(window).on('scroll', function () {
+	var stop = $(window).scrollTop();
+	var elementOne = document.getElementById('navbar-regular');
+	var elementTwo = document.getElementById('navbar-scroll');
+
+    elementOne.display="none";
+    elementTwo.display="block";
+/*	if (stop > mainbottom) {
+		elementOne.display="none";
+		elementTwo.display="block";
+	} else {
+		elementOne.display="block";
+		elementTwo.display="none";
+	}*/
+});
