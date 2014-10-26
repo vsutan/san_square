@@ -55,8 +55,6 @@
 }
 
 .navbar-default {
-	background-color: #FAF741 !important;
-	border-color: #FAF741 !important;
 	padding-bottom: 10px;
 }
 
@@ -68,7 +66,7 @@
 }
 
 .navbar-default .navbar-nav > li > a {
-	font-size: 2.0em;
+	font-size: 1.5em;
 	padding-top: 25px;
 }
 
