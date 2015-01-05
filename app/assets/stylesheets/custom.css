@@ -15,7 +15,7 @@
 	padding: 5px;
 }
 
-.img-gallery {
+.img-gallery-1 {
 	background-image: url("image_1.png");
 	background-repeat: no-repeat; 
 	background-position: center center;
@@ -28,6 +28,17 @@
 
 .img-gallery-2 {
 	background-image: url("image_13.png");
+	background-repeat: no-repeat; 
+	background-position: center center;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover !important;
+  background-attachment: fixed !important;
+  min-height: 1000px;
+}
+
+.img-gallery-3 {
+	background-image: url("image_2.png");
 	background-repeat: no-repeat; 
 	background-position: center center;
   -moz-background-size: cover;
@@ -50,12 +61,13 @@
 }
 
 .main-page-message {
-	margin-top: 50px;
+	margin-top: 100px;
 	margin-bottom: 50px;
 }
 
 .navbar-default {
 	padding-bottom: 10px;
+	opacity: 0.7;
 }
 
 .navbar-default .navbar-nav > .active > a,
@@ -63,6 +75,12 @@
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > li > a:hover {
 	background-color: transparent;
+}
+
+.navbar-nav > li > a:active,
+.navbar-nav > li > a:hover,
+.navbar-nav > li > a:focus {
+	color: #dabe3e !important;
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -79,9 +97,12 @@
 }
 
 #myCarousel {
-	padding-top: 40px;
+	padding-top: 0px;
 }
 
+#gallery {
+	padding-top: 0px;
+}
 #about:before {
 	display: block;
 	content: " ";
